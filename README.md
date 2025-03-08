@@ -20,15 +20,15 @@ This project provides an application that extracts audio from YouTube videos, tr
    pip install -q requests torch bitsandbytes transformers accelerate gradio sentencepiece yt-dlp datasets[audio] pydub
    ```
 3. **Set up API keys**  
-   - Create a `.env` file and add:  
+   - Create a `.env` file and add: (recommended)  
      ```
      HF_TOKEN=your_huggingface_token
      GROQ_API_KEY=your_groq_api_key
      ```
-   - Or set them in your environment:  
+   - Or set them directly in the code:  
      ```bash
-     export HF_TOKEN=your_huggingface_token
-     export GROQ_API_KEY=your_groq_api_key
+     HF_TOKEN=your_huggingface_token
+     GROQ_API_KEY=your_groq_api_key
      ```
 ## Usage
 Open this in jupyter lab and run the cells, it will automatically lunch Gradio GUI in browser
