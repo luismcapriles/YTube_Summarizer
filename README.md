@@ -30,6 +30,8 @@ This project provides an application that extracts audio from YouTube videos, tr
      export HF_TOKEN=your_huggingface_token
      export GROQ_API_KEY=your_groq_api_key
      ```
+## Usage
+Open this in jupyter lab and run the cells, it will automatically lunch Gradio GUI in browser
 
 ## How It Works  
 1️⃣ **Extracts audio** from the provided YouTube URL using `yt-dlp`.  
