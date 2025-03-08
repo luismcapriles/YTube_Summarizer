@@ -13,8 +13,7 @@ This project provides an application that extracts audio from YouTube videos, tr
 ## Installation  
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/luismcapriles/llm_engineering_course/blob/main/projects/YTube_Summarizer/ytube_summarizer_with_groq.ipynb
-   cd youtube-summarizer
+   git clone https://github.com/luismcapriles/YTube_Summarizer.git
    ```
 2. **Install dependencies**  
    ```bash
@@ -31,16 +30,6 @@ This project provides an application that extracts audio from YouTube videos, tr
      export HF_TOKEN=your_huggingface_token
      export GROQ_API_KEY=your_groq_api_key
      ```
-
-## Usage  
-Run the application with:  
-```bash
-python app.py
-```
-Or launch it in **Gradio** directly:  
-```python
-demo.launch(inbrowser=True)
-```
 
 ## How It Works  
 1️⃣ **Extracts audio** from the provided YouTube URL using `yt-dlp`.  
