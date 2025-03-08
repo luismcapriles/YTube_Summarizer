@@ -59,5 +59,3 @@ Open this in jupyter lab and run the cells, it will automatically lunch Gradio G
 
 💡 **Contributions welcome!** Feel free to suggest improvements.  
 
----
-#AI #YouTubeSummarizer #Groq #HuggingFace #LLM #Whisper #Gradio
